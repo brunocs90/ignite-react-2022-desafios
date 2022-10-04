@@ -15,6 +15,8 @@ export function OurCoffees() {
           <CoffeeCard key={coffee.id} coffee={coffee} />
         ))}
       </CoffeeList>
+
+
     </OurCoffeesContainer>
   );
 }
