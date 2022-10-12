@@ -14,10 +14,9 @@ export function SelectedCoffees() {
 			</TitleText>
 
 			<DetailsContainer>
-				<CoffeeCartCard />
-				<CoffeeCartCard />
-				<CoffeeCartCard />
-
+				{cartItems.map((item) => (
+					<CoffeeCartCard key={item.id} coffee={item} />
+				))}
 				<ConfirmationSection />
 			</DetailsContainer>
 		</SelectedCoffeesContainer>

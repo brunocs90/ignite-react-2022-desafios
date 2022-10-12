@@ -11,10 +11,7 @@ interface CartContextType {
 	cartQuantity: number;
 	cartItemsTotal: number;
 	addCoffeeToCart: (coffee: CartItem) => void;
-	changeCartItemQuantity: (
-		cartItemId: number,
-		type: "increase" | "decrease"
-	) => void;
+	changeCartItemQuantity: (cartItemId: number, type: "increase" | "decrease") => void;
 	removeCartItem: (cartItemId: number) => void;
 	cleanCart: () => void;
 }
@@ -58,10 +55,7 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
 		setCartItems(newCart);
 	}
 
-	function changeCartItemQuantity(
-		cartItemId: number,
-		type: "increase" | "decrease"
-	) {
+	function changeCartItemQuantity(cartItemId: number, type: "increase" | "decrease") {
 		const newCart = produce(cartItems, (draft) => {
 			const coffeeExistsInCart = cartItems.findIndex(
 				(cartItem) => cartItem.id === cartItemId
@@ -98,8 +92,6 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
 	useEffect(() => {
 		localStorage.setItem(COFFEE_ITEMS_STORAGE_KEY, JSON.stringify(cartItems));
 	}, [cartItems]);
-
-	//console.log(cartItems);
 
 	return (
 		<CartContext.Provider
