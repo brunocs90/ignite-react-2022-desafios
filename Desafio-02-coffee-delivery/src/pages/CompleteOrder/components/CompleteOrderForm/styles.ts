@@ -9,9 +9,9 @@ export const CompleteOrderFormContainer = styled.div`
 `;
 
 export const FormSectionContainer = styled(SectionBaseStyle)`
-   display: flex;
-   flex-direction: column;
-   gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 `;
 
 export const AddressFormContainer = styled.div`
