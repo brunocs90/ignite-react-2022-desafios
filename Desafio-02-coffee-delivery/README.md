@@ -47,10 +47,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Local Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
 - [Context API](https://reactjs.org/docs/context.html)
 
-```bash
-npm create vite@latest
-```
-
 ## 📥 Instalação
 
 Faça um clone desse repositório e acesse o diretório. Em instale todas as dependências com o seguinte comando:

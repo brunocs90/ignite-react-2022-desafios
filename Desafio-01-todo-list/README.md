@@ -41,10 +41,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
 - [Local Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
 
-```bash
-npm create vite@latest
-```
-
 ## 📥 Instalação
 
 Faça um clone desse repositório e acesse o diretório. Em instale todas as dependências com o seguinte comando:
