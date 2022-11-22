@@ -1,5 +1,5 @@
 <h1 align="center">
-  <span>Todo-list</span>
+  <span>Coffee Delivery</span>
 </h1>
 
 <p align="center">
@@ -20,17 +20,19 @@
 
 ## 💻 Projeto
 
-Neste desafio foi desenvolvida uma aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
+Nesse desafio foi desenvolvida uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia, que contém as seguintes funcionalidades:
 
-- Adicionar uma nova tarefa
-- Marcar e desmarcar uma tarefa como concluída
-- Remover uma tarefa da listagem
-- Mostrar o progresso de conclusão das tarefas
+- Listagem de produtos (cafés) disponíveis para compra
+- Adicionar uma quantidade específicas de itens no carrinho
+- Aumentar ou remover a quantidade de itens no carrinho
+- Formulário para o usuário preencher o seu endereço
+- Exibir o total de itens no carrinho no Header
+- Exibir o valor total da soma de itens no carrinho multiplicados pelo valor
 
 ## 📟 Layout
 
 O layout das telas da aplicação foi desenvolvido pela equipe da Rocketseat através do Figma. O layout pode ser acessado através deste link:
-[**Todo-list**](https://www.figma.com/file/lJtMzltv5cdMLOmcfWpjKZ/ToDo-List-(Copy)?node-id=0%3A1&t=vntvc50zgyT0qyo8-0).
+[**Coffee Delivery**](https://www.figma.com/file/MRfSsrogtK2VsSQqlqpmtb/Coffee-Delivery-(Copy)?node-id=0%3A1&t=xenYWZBAg7Q0a9dH-0).
 
 ## 🚀 Tecnologias
 
@@ -38,8 +40,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Vite](https://vitejs.dev/)
 - [Typescript](https://www.typescriptlang.org/)
-- [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [Styled Components](https://styled-components.com/)
+- [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start)
 - [Local Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
+- [Context API](https://reactjs.org/docs/context.html)
 
 ```bash
 npm create vite@latest
