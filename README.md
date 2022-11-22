@@ -30,7 +30,7 @@ Este repositório contém os desafios desenvolvidos durante o curso de Ignite da
 - [Coffee-delivery](https://github.com/brunocs90/ignite-react-2022-desafios/tree/main/Desafio-02-coffee-delivery)
 
 ### Desafio 03
-- [Consumo de API e performance no ReactJS]()
+- [Github Blog]()
 
 ## 📥 Instalação
 
